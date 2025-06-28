@@ -26,3 +26,15 @@ print("Análisis de palabras:")
 palabras = frase.split()
 
 print(f"La frase tiene {len(palabras)} palabras")
+
+# primera palabra y ultima palabra
+print(f"La primera palabra es {palabras[0]}")
+print(f"La ultima palabra es {palabras[-1]}")
+
+# imprimir la cantidad de consonantes en cada una de las palabras
+for palabra in palabras:
+    consonantes = 0
+    for i in palabra:
+        if i not in "aeiou":
+            consonantes += 1
+    print(f"La palabra {palabra} tiene {consonantes} consonantes")
