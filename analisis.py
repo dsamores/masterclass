@@ -20,3 +20,9 @@ print(f"Tiene {vocales} vocales")
 
 print(f"Comienza con {frase[0]}")
 print(f"Termina con {frase[-1]}")
+
+print("Analisis de palabras:")
+
+palabras = frase.split()
+
+print(f"La frase tiene {len(palabras)} palabras")
