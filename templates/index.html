@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Análisis de texto</title>
+</head>
+<body>
+  <h1>Análisis de texto</h1>
+  <form action="" method="post">
+    <label for="texto">Ingrese texto:</label>
+    <textarea id="texto" name="texto" rows="4" cols="50"></textarea>
+    <br>
+    <input type="submit" value="Analizar">
+  </form>
+  {% if vocales %}
+    <p>El texto contiene {{ vocales }} vocales.</p>
+  {% endif %}
+</body>
+</html>
+
