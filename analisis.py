@@ -17,3 +17,6 @@ for i in frase.lower():
         vocales += 1
 
 print(f"Tiene {vocales} vocales")
+
+print(f"Comienza con {frase[0]}")
+print(f"Termina con {frase[-1]}")
